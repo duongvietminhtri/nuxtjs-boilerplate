@@ -1,7 +1,7 @@
 {
-  "name": "multiple-choice-frontend",
+  "name": "nuxtjs-boilerplate",
   "version": "1.0.0",
-  "description": "Take the tests perfectly!",
+  "description": "Basic nuxtjs boilerplate for beginner!",
   "author": "duongvietminhtri",
   "private": true,
   "scripts": {

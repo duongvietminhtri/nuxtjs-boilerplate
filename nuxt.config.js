@@ -9,7 +9,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: pkg.name || 'Multiple choice Tests',
+    title: pkg.name || 'NuxtJS Boilerplate',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -71,12 +71,12 @@ export default {
   ** Config manifest
   */
   manifest: {
-    short_name: 'Multiple choice Tests',
-    name: 'Multiple choice Tests',
+    short_name: 'NuxtJS Boilerplate',
+    name: 'NuxtJS Boilerplate',
     start_url: '/',
     display: 'standalone',
     background_color: '#fff',
-    description: 'Take the tests perfectly!',
+    description: 'Basic NuxtJS Boilerplate for beginner!',
     lang: 'vi-VN',
     orientation: 'portrait-primary'
   },

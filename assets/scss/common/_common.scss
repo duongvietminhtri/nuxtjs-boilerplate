@@ -362,41 +362,7 @@ label {
 		scrollbar-width: inherit;
 
 		&::-webkit-scrollbar {
-			// width: ;
-			// width: ;
 			opacity: 1;
 		}
 	}
-}
-
-.popover-body {
-	text-align: center;
-}
-
-body:not(.lg-from-hash)
-	.lg-outer.lg-start-zoom
-	.lg-item.lg-complete
-	.lg-object {
-	max-height: 60%;
-}
-
-.lg-outer .lg-thumb-item img {
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
-	padding: 5px;
-}
-
-.datepicker table tr td span.active,
-.datepicker table tr td span.active:hover,
-.datepicker table tr td span.active.disabled,
-.datepicker table tr td span.active.disabled:hover {
-	background: $colorGreen !important;
-}
-
-.datepicker table tr td.active,
-.datepicker table tr td.active:hover,
-.datepicker table tr td.active.disabled,
-.datepicker table tr td.active.disabled:hover {
-	background: $colorGreen !important;
 }
