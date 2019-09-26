@@ -1,0 +1,282 @@
+// Background
+.bg--main {
+	background-color: $colorGreen !important;
+}
+
+.bg--transparent {
+	background: transparent !important;
+}
+
+.bg--white {
+	background-color: $colorWhite !important;
+}
+
+.bg--blue {
+	background-color: $colorBlue !important;
+}
+
+.bg--blue-dark {
+	background-color: $colorBlueDark !important;
+}
+
+.bg--layer-light {
+	background: rgba($color: $colorBlueAqua, $alpha: 0.3)
+}
+
+.bg-origin--content {
+	background-origin: content-box !important;
+}
+
+.bg-origin--padding {
+	background-origin: padding-box !important;
+}
+
+.bg--gradient-green {
+	background-color: $colorGreenGradient;
+}
+
+.bg--header-radius {
+	background: $colorGreenGradient;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transform: skewY(-4deg);
+	transform-origin: top left;
+}
+
+.bg--wave-blue-down {
+	background: url(~static/images/shapes/wave-blue.svg);
+}
+
+//Demension
+.max-width {
+	width: 100% !important;
+}
+
+.w-h-100 {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+// Font family
+.font--header {
+	font-family: $fontLinotteSemiBold;
+}
+
+.font--main {
+	font-family: $fontMontserrat;
+}
+
+
+// Font size
+.font-size--header {
+	font-size: 4rem;
+}
+
+.font-size--sub-header {
+	font-size: 2rem;
+}
+
+.font-size--text {
+	font-size: 1rem;
+}
+
+.font-size--sub-text {
+	font-size: 0.75rem;
+}
+
+
+.font-20 {
+	font-size: get-rem(20) !important;
+
+	&::before {
+		font-size: get-rem(20) !important;
+	}
+}
+
+.font-31 {
+	font-size: get-rem(31) !important;
+
+	&::before {
+		font-size: get-rem(31) !important;
+	}
+}
+
+.font-12 {
+	font-size: get-rem(12) !important;
+
+	&::before {
+		font-size: get-rem(12) !important;
+	}
+}
+
+.font-15 {
+	font-size: get-rem(15) !important;
+
+	&::before {
+		font-size: get-rem(15) !important;
+	}
+}
+.font-18 {
+	font-size: get-rem(18) !important;
+
+	&::before {
+		font-size: get-rem(18) !important;
+	}
+}
+
+.font-22 {
+	font-size: get-rem(22) !important;
+
+	&::before {
+		font-size: get-rem(22) !important;
+	}
+}
+
+.font-32 {
+	font-size: get-rem(32) !important;
+
+	&::before {
+		font-size: get-rem(32) !important;
+	}
+}
+.font-54 {
+	font-size: get-rem(54) !important;
+
+	&::before {
+		font-size: get-rem(54) !important;
+	}
+}
+
+
+//Font weight 
+.font--bold {
+	font-weight: 700 !important;
+}
+
+.font--regular {
+	font-weight: 400 !important;
+}
+
+.font--light {
+	font-weight: 300 !important;
+}
+
+//Button
+.btn--hover-origin {
+	&:hover {
+		background: inherit;
+		color: $colorWhite;
+	}
+}
+
+//Opacity
+.opacity-0 {
+	opacity: 0 !important;
+}
+
+.opacity-40 {
+	opacity: 0.4 !important;
+}
+
+.opacity-70 {
+	opacity: 0.7 !important;
+}
+
+//Border
+.border--circle {
+	border-radius: 50% !important;
+}
+
+.border-radius-0 {
+	border-radius: 0 !important;
+}
+
+.border-normal {
+	border: 1px solid $colorGray;
+}
+
+.border-none {
+	border: none;
+}
+
+.border-transparent {
+	border-color: transparent;
+}
+
+//Position
+.position-right {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.position-left {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.lef-0 {
+	left: 0 !important;
+}
+
+.right-0 {
+	right: 0 !important;
+}
+
+.bottom-0 {
+	bottom: 0 !important;
+}
+
+
+//Object fit
+.object-fit--contain {
+	object-fit: contain !important;
+}
+
+.object-fit--cover {
+	object-fit: cover !important;
+}
+
+//Pointer
+.cursor-pointer {
+	cursor: pointer;
+}
+
+//Transform
+.translate-x-hidden {
+	transform: translateX(-100%);
+}
+
+.translate-x-0 {
+	transform: translateX(0);
+}
+
+.transform--skewY-4 {
+	transform: skewY(4deg);
+}
+
+//Image
+.img-auto {
+	width: 100%;
+	height: auto;
+}
+
+//Box sizing
+.box-content {
+	box-sizing: content-box;
+}
+
+.box-border {
+	box-sizing: border-box;
+}
+
+//Z-index
+.z-index--10 {
+	z-index: 10;
+}
