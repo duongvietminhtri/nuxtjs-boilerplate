@@ -1,6 +1,13 @@
-# multiple-choice-frontend
+# NuxtJS Boilerplate
 
-> Take the tests perfectly!
+> Basic NuxtJS Boilerplate for Beginner!
+
+## Nodemon for monitoring changing
+
+``` bash
+# install dependencies
+$ yarn add nodemon -g
+```
 
 ## Build Setup
 
